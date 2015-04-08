@@ -1,3 +1,7 @@
+/**********
+  GENERAL
+**********/
+
 body {
 	font-family: Georgia, Times, serif;
 	max-width: 950px;
@@ -5,10 +9,12 @@ body {
 }
 header {
 	width: 500px;
-	height: 135px;
+	height: 85px;
 	margin: 0 auto;
 	border: 3px solid red;
 	padding-bottom: 0px;
+	padding-top: 0px;
+
 }
 
 h1, h2 {
@@ -17,32 +23,29 @@ h1, h2 {
 
 h1 {
 	font-size: 100px;
-	border: 3px solid green;
+	margin-top: 15px;
+	/*border: 3px solid green;*/
 }
 
 h2 {
-	margin-top: 84px;
-	border: 3px solid green;
+	margin-top: 34px;
+	/*border: 3px solid green;*/
 }
 
-li {
+nav ul li {
 	display: inline-block;
 	list-style: none;
-	padding-right: 20px
+	padding-right: 20px;
+	font-size: 20px;
+
 }
 
-nav {
-	margin: 0 auto;			/*this is needed to center the nav menu*/
-	width: 800px;
-	border: 3px solid black;
-	list-style: none;
-	text-align: center;	
+nav ul {
+	padding-left: 20px;
+	float: left; 		/*this is needed to center the ul within nav menu*/
+	/*border: 3px solid black;*/
+	width: 350px; 
+	margin: 0px; 
 }
 
-ul {
-	margin: 0 auto;	 		/*this is needed to center the ul within nav menu*/
-	border: 3px solid black;
-	width: 300px;  
-	padding-left: 100px;    /*moves the nav lists slightly to the right side*/
-}
 
