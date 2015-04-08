@@ -2,12 +2,21 @@ header {
 	max-width: 400px;
 	margin: 0 auto;
 	border: 3px solid red;
+	display: block;
+}
+
+.clear {
+	clear: both;
 }
 
 h1, h2 {
 	float: left;
 }
 
+nav {
+	clear: :left;
+	border: 3px solid black;
+}
 li {
-	display: block;
+	display: inline;
 }
