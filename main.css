@@ -1,0 +1,13 @@
+header {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 3px solid red;
+}
+
+h1, h2 {
+	float: left;
+}
+
+li {
+	display: block;
+}
