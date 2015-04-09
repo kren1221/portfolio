@@ -148,6 +148,13 @@ article {
 .work {
 	clear: both;
 	text-align: center;
+	color: #636364;
+}
+
+.progress {
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
 }
 
 .gallery {
@@ -156,7 +163,7 @@ article {
 
 .midnight {
 	width: 900px;
-	padding: 0 130px;
+	padding: 0 120px;
 }
 .midnight li {
 	list-style: none;
