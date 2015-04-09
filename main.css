@@ -77,7 +77,6 @@ footer {
 
 .visit_white a {
 	color: #FFFFFF;
-
 }
 /**********
   index
@@ -174,8 +173,19 @@ article {
 	width: 200px;
 	height: 300px;
 	padding: 20px;
+	-webkit-filter: grayscale(1);    /*** filters image to b & w ***/
+	-moz-filter: grayscale(1);
+	filter: grayscale(1);
+	box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
 }
 
+.midnight li img:hover {
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	filter: grayscale(0);
+}
 .clear {
 	clear: both;
 }
