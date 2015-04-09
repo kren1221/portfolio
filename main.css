@@ -1,10 +1,4 @@
-/*****
-#FFC30D
 
-#5D5D5F
-
-
-****/
 /**********
   GENERAL
 **********/
@@ -14,20 +8,17 @@ body {
 	max-width: 950px;
 	margin: 0 auto;
 	padding-top: 20px;
-/*	border: 3px solid green;*/
 }
 
 .topband {
 	width: 100%;
 	background-color: #414142;
-	/*padding-top: 20px;*/
 	height: 115px;
 }
 header {
 	width: 500px;
 	height: 78px;
 	margin: 0 auto;
-	/*border: 3px solid red;*/
 	padding-bottom: 0px;
 	padding-top: 0px;
 	color: #FFC30D;
@@ -41,12 +32,10 @@ h1, h2 {
 h1 {
 	font-size: 100px;
 	margin-top: 5px;
-	/*border: 3px solid green;*/
 }
 
 h2 {
 	margin-top: 24px;
-	/*border: 3px solid green;*/
 }
 
 nav ul li {
@@ -59,7 +48,6 @@ nav ul li {
 nav ul {
 	padding-left: 20px;
 	float: left; 		/*this is needed to center the ul within nav menu*/
-	/*border: 3px solid black;*/
 	width: 350px; 
 	margin: 0px; 
 }
@@ -77,8 +65,7 @@ footer {
 	margin-top: 200px;
 	text-align: center;
 	color: #FFC30D;
-	/*background-color: #FFC30D;*/
-	background-color: #5D5D5F;
+	background-color: #636363;
 }
 
 .visit_white a {
@@ -88,11 +75,12 @@ footer {
 /**********
   index
 **********/
-
+.contact {
+	text-align: left;
+}
 img.profilepic {
 	clear: both;
 	width: 400px;
-	/*margin: 30px;*/
 	float: left;
 	margin: 25px;
 
@@ -103,11 +91,30 @@ img.profilepic {
 	margin-left: 450px;
 	padding-top: 100px;
 	color: #636364;
-	/*border: 1px solid black;*/
 }
 
 article {
-	/*border: 3px solid red;*/
 	margin-top: 100px;
+}
 
+/**********
+  contact
+**********/
+.info {
+	clear: both;
+	color: #636364
+}
+.sociallogo {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle; 	/*this aligns the email text to the center of the email logo.*/
+}
+
+.sociallink {
+	text-decoration: none;
+	color: #636364;
+}
+
+.sociallink:hover {
+	color: blue;
 }
