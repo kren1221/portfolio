@@ -78,14 +78,25 @@ footer {
 .contact {
 	text-align: left;
 }
+
 img.profilepic {
 	clear: both;
 	width: 400px;
 	float: left;
 	margin: 25px;
-
+	-webkit-filter: grayscale(1);    /*** filters image to b & w ***/
+	-moz-filter: grayscale(1);
+	filter: grayscale(1);
+	box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
 }
 
+img.profilepic:hover {
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	filter: grayscale(0);
+}
 .intro  {
 	width: 400px;
 	margin-left: 450px;
