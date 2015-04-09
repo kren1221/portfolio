@@ -14,6 +14,9 @@ body {
 	width: 100%;
 	background-color: #414142;
 	height: 115px;
+	box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
 }
 header {
 	width: 500px;
@@ -66,6 +69,10 @@ footer {
 	text-align: center;
 	color: #FFC30D;
 	background-color: #636363;
+	box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
+	clear: both;
 }
 
 .visit_white a {
@@ -75,10 +82,6 @@ footer {
 /**********
   index
 **********/
-.contact {
-	text-align: left;
-}
-
 img.profilepic {
 	clear: both;
 	width: 400px;
@@ -100,20 +103,27 @@ img.profilepic:hover {
 .intro  {
 	width: 400px;
 	margin-left: 450px;
-	padding-top: 100px;
+	padding-top: 50px;
 	color: #636364;
+	line-height: 20px;
 }
 
 article {
 	margin-top: 100px;
 }
 
+.welcome {
+	font-size: 50px;
+}
+
 /**********
   contact
 **********/
+
 .info {
 	clear: both;
-	color: #636364
+	color: #636364;
+	padding-left: 40px;
 }
 .sociallogo {
 	width: 40px;
@@ -128,4 +138,37 @@ article {
 
 .sociallink:hover {
 	color: blue;
+}
+
+
+/**********
+  	Work
+**********/
+
+.work {
+	clear: both;
+	text-align: center;
+}
+
+.gallery {
+	padding-top: 100px;
+}
+
+.midnight {
+	width: 900px;
+	padding: 0 130px;
+}
+.midnight li {
+	list-style: none;
+	float: left;
+}
+
+.midnight li img {
+	width: 200px;
+	height: 300px;
+	padding: 20px;
+}
+
+.clear {
+	clear: both;
 }
