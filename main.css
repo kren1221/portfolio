@@ -1,3 +1,10 @@
+/*****
+#FFC30D
+
+#5D5D5F
+
+
+****/
 /**********
   GENERAL
 **********/
@@ -6,16 +13,24 @@ body {
 	font-family: Georgia, Times, serif;
 	max-width: 950px;
 	margin: 0 auto;
-	border: 3px solid green;
+	padding-top: 20px;
+/*	border: 3px solid green;*/
+}
+
+.topband {
+	width: 100%;
+	background-color: #414142;
+	/*padding-top: 20px;*/
+	height: 115px;
 }
 header {
 	width: 500px;
-	height: 85px;
+	height: 78px;
 	margin: 0 auto;
 	/*border: 3px solid red;*/
 	padding-bottom: 0px;
 	padding-top: 0px;
-	color: #5D5D5F;
+	color: #FFC30D;
 
 }
 
@@ -25,12 +40,12 @@ h1, h2 {
 
 h1 {
 	font-size: 100px;
-	margin-top: 15px;
+	margin-top: 5px;
 	/*border: 3px solid green;*/
 }
 
 h2 {
-	margin-top: 34px;
+	margin-top: 24px;
 	/*border: 3px solid green;*/
 }
 
@@ -39,7 +54,6 @@ nav ul li {
 	list-style: none;
 	padding-right: 20px;
 	font-size: 20px;
-
 }
 
 nav ul {
@@ -50,6 +64,27 @@ nav ul {
 	margin: 0px; 
 }
 
+nav ul li a {
+	text-decoration: none;
+	color: #FFD451;
+}
+
+nav ul li a:hover {
+	color: #FFFFFF;
+}
+
+footer {
+	margin-top: 200px;
+	text-align: center;
+	color: #FFC30D;
+	/*background-color: #FFC30D;*/
+	background-color: #5D5D5F;
+}
+
+.visit_white a {
+	color: #FFFFFF;
+
+}
 /**********
   index
 **********/
@@ -67,12 +102,12 @@ img.profilepic {
 	width: 400px;
 	margin-left: 450px;
 	padding-top: 100px;
-	color: grey;
+	color: #636364;
 	/*border: 1px solid black;*/
 }
 
 article {
 	/*border: 3px solid red;*/
-	margin-top: 200px;
+	margin-top: 100px;
 
 }
